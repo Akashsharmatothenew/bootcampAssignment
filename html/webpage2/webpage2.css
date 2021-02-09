@@ -1,0 +1,103 @@
+.mainclass{
+    background-color: rgb(37, 35, 35);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 0rem;
+}
+.navbar{
+    background-color: rgb(24, 22, 22);
+    padding-top: 5px;
+}
+.first{
+   margin-left: 9%;
+   margin-right: 9%;
+   width: 960px;
+}
+#heading{
+    color: blanchedalmond;
+    margin-top: 5px;
+}
+
+
+
+ul {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    
+  }
+
+
+li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+
+.secound{
+    background-color: blanchedalmond;
+    overflow: hidden;
+}
+#image{
+    display: block;
+    margin-left: 9%;
+    margin-right: 9%;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+#para{
+    display: block;
+    margin-left: 9%;
+    margin-right: 8%;
+    background-color: rgb(180, 173, 173);
+    padding-bottom: 1px;
+    padding-left: 1px;
+    padding-top: 1px;
+    padding-right: 1px;
+}
+#latest{
+    margin-left: 9%;
+    margin-right: 9%;
+    border-bottom: 2px solid rgb(180, 173, 173) ;
+    padding:1px;
+    padding-bottom: 0rem;
+    margin-bottom: 0rem;
+
+}
+.group{
+    margin-left: 9%;
+    margin-right: 9%;
+    display: flex;
+    justify-content: space-between;
+}
+.group .child{
+    height: 340px;
+    width: 215px;
+    text-align: center;
+    background-color: gray;
+
+}
+.footer1{
+    background-color: black;
+    margin-bottom: 0px;
+}
+
+#footer{
+    color: blanchedalmond;
+    padding-bottom: 4px;
+    padding-right: 2px;
+    padding-top: 4px;
+    margin-bottom: 0px;
+    margin-left: 9%;
+}
