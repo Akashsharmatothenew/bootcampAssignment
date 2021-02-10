@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function employee(name,age,salary,dob){
+            this.name  =name;
+            this.age   =age;
+            this.salary=salary;
+            this.dob   =dob;
+        }
+        var list = new Array();
+            list.push(new employee("akash",24,10000,1996));
+            list.push(new employee("manoj",28,15000,1995));
+            list.push(new employee("gourav",27,3000,1995));
+            list.push(new employee("sahil",23,2000,1995));
+            list.push(new employee("ravi",25,1000,1995));
+            list.push(new employee("sachin",24,300,1995));
+            list.push(new employee("pawan",24,400,1995));
+
+          //  console.log(list);
+          //  console.log(list[0]);
+             
+           /* var great = list.filter(function(great2,i){
+                return great2.salary>5000;
+            })*/
+
+
+           // console.log(great);
+            console.log(list);
+           for(var i in list){
+                if(list[i].salary<1000 && list[i].age>20){
+                    console.log(list[i]);
+
+                    list[i].salary*=5;
+                }
+            }
+            console.log(list);
+
+     /*       var st= list.reduce(function(acc,obj){
+               
+                const key = obj.age;
+                if(!acc[key]){
+                    acc[key]=[];
+                }
+                acc[key].push(obj);
+                return acc;
+            },{});
+
+
+        console.log(st);*/
+
+
+    </script>
+</body>
+</html>
